@@ -16,6 +16,3 @@ logging:
 
 mockwebserver:
   port: 6969
-ribbon:
-  eager-load:
-    enabled: false
