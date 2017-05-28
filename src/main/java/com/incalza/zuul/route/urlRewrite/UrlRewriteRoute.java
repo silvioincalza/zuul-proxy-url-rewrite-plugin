@@ -10,6 +10,7 @@ import java.util.Map;
 
 import static java.lang.String.format;
 import static org.apache.commons.lang.StringUtils.removeStart;
+
 /**
  * Created by sincalza on 28/05/2017.
  */

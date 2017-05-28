@@ -40,7 +40,7 @@ public class UrlRewriteZuulFilter extends ZuulFilter {
     @Override
     public boolean shouldFilter() {
         RequestContext ctx = RequestContext.getCurrentContext();
-        return ctx.containsKey(REQUEST_URI); // a filter has requestUri and route host forwarded
+        return ctx.containsKey(REQUEST_URI); // a filter has requestUri
     }
 
     @Override

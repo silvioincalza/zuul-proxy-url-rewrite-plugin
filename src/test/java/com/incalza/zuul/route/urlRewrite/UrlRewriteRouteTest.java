@@ -7,6 +7,7 @@ import java.util.Collections;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
+
 /**
  * Created by sincalza on 28/05/2017.
  */
