@@ -7,6 +7,7 @@ zuul:
       path: /v1/{param1:\w+}/{param2:\w+}/services/test/{param3:\w+}
       url: urlRewrite:http://localhost:${mockwebserver.port}/services/test/{param2}
 
+
 logging:
   level:
     org.springframework.cloud.netflix.zuul: TRACE
@@ -15,3 +16,6 @@ logging:
 
 mockwebserver:
   port: 6969
+ribbon:
+  eager-load:
+    enabled: false
