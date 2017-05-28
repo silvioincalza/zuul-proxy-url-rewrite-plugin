@@ -1,4 +1,4 @@
-####Zuul Proxy Url Rewrite Plugin
+#### Zuul Proxy Url Rewrite Plugin [![Build Status](https://travis-ci.org/silvioincalza/zuul-proxy-url-rewrite-plugin.svg?branch=master)](https://travis-ci.org/silvioincalza/zuul-proxy-url-rewrite-plugin)
 
 The UrlRewriteZuulFilter is a implementation of a `ZuulFilter` is able to recognize, using Ant pattern matching which is already
 used by Zuul and SpringMVC this complex pattern using a prefix on the url parameter called `urlRewrite`.
